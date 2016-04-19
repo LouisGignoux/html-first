@@ -1,41 +1,94 @@
 /*les commentaires sont un peu différents*/
 
-div.bloc{
+body{
+	background-image : url("fond-etoile.jpeg");
+	padding : 0%;
+	margin : 0%;
+}
+div.corps{
 	display : flex;
 	flex-direction : row;
 }
 section{
-	background-color : fuchsia;
-	width : 80%;
-	border : 1px solid black;
+	width : 70%;
+	text-align : justify;
+	color : white;
+	font : arial;
+	opacity : 0.75;
 }
-section.sommaire{
-	width : 20%;
-	background-color : lime;
-}
-section.page{
+nav{
+	width : 15%;
+	background-color : black;
+	opacity : 0.75;
+	color : white;
+	text-decoration : none;
+	margin-top : 15%;
 	text-align : center;
 }
-h1 {color : blue;}
-.introduction {color : red;}
-#liste {color : green;}
+aside{
+	width : 15%;
+	background-color : black;
+	opacity : 0.75;
+	color : white;
+	text-align : center;
+}
 p{
 	font-size : 1.25em;	/*em est une taille relative, c'est bien plus pratique ! */
 	font-family : arial, serif;
 }
-h1{
-	font-style : italic;
-	font-weight : bold;
-	text-decoration : underline;
-	text-align : center;
+p.todo{
+	background-color : red;
+	font-size : 1.25em;
+	color : white;
+	opacity : 1;
 }
 header, footer{
+	opacity : 0.65;
 	text-align : center;
+	font-family : "arial";
+}
+header{
+	background-color : white;
+	height : 137px;
+	font-size : 3.75em;
+	font-weight : bold;
+}
+footer{
 	background-color : black;
 	color : white;
-	font-size : 1.75em;
-	font-family : "Comic sans";
+	font-size : 0.7em;
+}
+ul.liste-missions{
+	list-style : none;
+	text-align : center;
+	padding-right : 15%;
+	padding-top : 15%;
+}
+li.liste-missions{
+	padding-top : 10%;
+	font-size : 1.25em;
+	text-align : center;
 	font-weight : bold;
-} 
+}
+a{
+	color : white;
+}
+h1.mission-name{
+	text-align : center;
+}
+#nasa-logo1{
+	float : left;
+}
+#nasa-logo2{
+	float : right;
+}
+#pluto{
+	padding-left : 17%;
+	padding-top : 5%;
+}
+#pluto-name{
+	font-size : 2em;
+	font-weight : bold;
+}
 
 /*si on a besoin de travailler sur un mot particulier, on peut mettre une balise <span></span> autour, cette balise ne fait rien*/

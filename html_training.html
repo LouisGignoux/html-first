@@ -1,36 +1,47 @@
 <!DOCTYPE html>
 <html>
     <!--commentaire-->
-    <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css" /> <!--vers le css-->
-        <title>Titre</title> <!--le titre de la page (au niveau de l'onglet et qui apparaît sur google)-->
+        <title>New Horizons</title> <!--le titre de la page (au niveau de l'onglet et qui apparaît sur google)-->
     </head>
 
     <body>
         <header>
-            Le header ici
+            <img title="NASA logo" src="Nasa-logo.jpeg" id="nasa-logo1" />
+            <img title="NASA logo" src="Nasa-logo.jpeg" id="nasa-logo2" />
+            <h1 class="mission-name">NEW HORIZONS</h1>
         </header>
 
-        <div class="bloc">
-        <section class="sommaire">
-            <h2>Sommaire</h2>
-            <ul id="liste"> 
-                <li>liste</li>
-                <li>non</li>
-                <li>ordonnée</li>
-            </ul>
-        </section>
-        <section class="page">
-            <h1>Ma toute première page !</h1> <!-- on peut avoir des titres de différentes importances, de h1 jusqu'à h6-->
-            <p class="introduction">Bonjour et bienvenue sur mon site !<br/>Il est moche mais c'est normal car je suis un peu nouveau dans ce domaine.</p> <!--la balise br pour aller à la ligne, p pour 1 nouveau paragraphe-->
-            <p>Ceci est un premier test, j'ai intérêt à être plus <strong>performant</strong> d'ici la <mark>fin de la semaine</mark>.</p>
-            <!-- balises de forme (on peut modifier la forme en css, mais c'est surtout pour indiquer les blocs importants à l'ordianteur) : em italique, strong gras, mark surlignage-->
-        </section>
+        <div class="corps">
+        	<nav>
+            	<h1 class="missions-historiques">Missions<br/>historiques</h1>
+            	<ul class="liste-missions">
+            		<li class="liste-missions"><a href="#" title="Voyager 1">Voyager 1</a></li>
+            		<li class="liste-missions"><a href="#" title="Voyager 2">Voyager 2</a></li>
+            		<li class="liste-missions"><a href="#" title="Viking">Viking</a></li>
+            	</ul>
+        	</nav>
+       		<section>
+          		<p>New Horizons (« Nouveaux Horizons » en français) est une mission de l'agence spatiale américaine (NASA) dont l'objectif principal est d'étudier la planète naine Pluton et ses satellites grâce à une sonde spatiale qui les a survolés mi-juillet 2015. Il est prévu qu'elle soit ensuite dirigée vers un autre corps de la ceinture de Kuiper, zone dont le système plutonien fait partie. New Horizons est la première mission spatiale qui explore cette région du Système solaire. Du fait de leur éloignement, on dispose de très peu d'informations sur les corps célestes qui s'y trouvent car ceux-ci sont à peine visibles avec les meilleurs télescopes. Or leurs caractéristiques sont susceptibles de fournir des informations importantes sur le processus de formation du Système solaire.</p>
+
+				<p>La sonde spatiale New Horizons a été conçue pour fonctionner dans les conditions hostiles de cette région très éloignée de la Terre et du Soleil. L'architecture de l'engin spatial et le déroulement de la mission prennent ainsi en compte la faiblesse de l'ensoleillement qui impose le recours à un générateur thermoélectrique à radioisotope et à une isolation thermique renforcée, le débit limité des télécommunications (1 ko/s) et la durée du transit vers sa cible (plus de 9 ans) qui nécessite une grande fiabilité des composants critiques. Les sept instruments scientifiques embarqués comprennent une caméra fonctionnant en lumière visible et en infrarouge, un spectromètre imageur ultraviolet, une caméra dotée d'un téléobjectif, deux spectromètres destinés à mesurer les particules, une expérience d'occultation radio et un compteur de poussières interplanétaires. Ceux-ci doivent permettre de caractériser la géologie, les structures en surface, la composition du sol et sa température, la structure et la composition de l'atmosphère des corps célestes survolés.</p>
+
+				<p>La sonde spatiale a été lancée le 19 janvier 2006 par une fusée de forte puissance Atlas V-550. New Horizons a survolé Jupiter le 28 février 2007, ce qui lui a permis de gagner 4 km/s grâce à l'assistance gravitationnelle de cette planète. Le survol de Jupiter a également permis de calibrer les instruments tout en faisant des observations scientifiques intéressantes sur le système de Jupiter, en particulier son atmosphère, ses satellites et son champ magnétique. New Horizons a ensuite entamé son long transit vers Pluton, durant lequel la sonde a été mise en sommeil. Elle en est sortie le 6 décembre 2014 et a commencé en janvier 2015 ses observations de Pluton qu'elle survole le 14 juillet 2015. Elle doit ensuite passer à faible distance début 2019 d'un petit corps de la ceinture de Kuiper découvert à la suite d'observations astronomiques réalisées en 2014. New Horizons est la première mission du programme New Frontiers de la NASA dont l'objectif est d'effectuer une exploration scientifique fouillée des planètes du système solaire avec des sondes spatiales d'un coût inférieur à 700 millions de dollars, ce qui les situe sur un plan financier entre les missions du programme Discovery et les missions phares du programme Flagship auquel se rattache Mars Science Laboratory.</p>
+        	</section>
+        	<aside>
+        		<img title="Pluton" src="Pluto.jpeg" id="pluto" />
+        		<p id="pluto-name">Pluton</p>
+        		<p>Diamètre : 2300 km</p>
+        		<p>Orbite : 5 000 000 000 km</p>
+        		<p>Type : planète rocheuse</p>
+        		<p>Année de découverte : 23 janvier 1930</p>
+        	</aside>
         </div>
     
         <footer>
-            Le footer ici
+            <img title="Logo Theodo" src="Theodo-logo.jpeg" id="Theodo" />
+            <p>Site réalisé par Theodo</p>
         </footer>
     </body>
 </html>
