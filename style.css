@@ -1,0 +1,41 @@
+/*les commentaires sont un peu différents*/
+
+div.bloc{
+	display : flex;
+	flex-direction : row;
+}
+section{
+	background-color : fuchsia;
+	width : 80%;
+	border : 1px solid black;
+}
+section.sommaire{
+	width : 20%;
+	background-color : lime;
+}
+section.page{
+	text-align : center;
+}
+h1 {color : blue;}
+.introduction {color : red;}
+#liste {color : green;}
+p{
+	font-size : 1.25em;	/*em est une taille relative, c'est bien plus pratique ! */
+	font-family : arial, serif;
+}
+h1{
+	font-style : italic;
+	font-weight : bold;
+	text-decoration : underline;
+	text-align : center;
+}
+header, footer{
+	text-align : center;
+	background-color : black;
+	color : white;
+	font-size : 1.75em;
+	font-family : "Comic sans";
+	font-weight : bold;
+} 
+
+/*si on a besoin de travailler sur un mot particulier, on peut mettre une balise <span></span> autour, cette balise ne fait rien*/
